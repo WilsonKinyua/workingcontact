@@ -48,7 +48,7 @@ if(isset($_POST['submit'])){
     <div class="col-md-4️ mt-5 bg-light rounded">
     <h1 class="text-center font-weight-bold text-primary">Contact Us</h1>
     <hr class="bg-light">
-    <h5 class="text-center text-success"><?= $result; ?></h5>
+    <h5 class="text-center text-success"><?php $result; ?></h5>
     <form action="" method="post" id="form-box" class="p-2">
     <div class="form-group input-group">
     <div class="input-group-prepend">
