@@ -8,8 +8,8 @@ if(isset($_POST['submit'])){
     $mail ->Port = 587;
     $mail ->SMTPAuth =true;
     $mail -> SMTPSecure ='tls';
-    $mail ->Username ='wilsonkinyuam@gmail.com';
-    $mail ->Password = 'Willie0717255460';
+    $mail ->Username ='hashhash@gmail.com';
+    $mail ->Password = 'mypassword';
 
     $mail->setFrom($_POST['email'], $_POST['name']);
     $mail ->addAddress('wilsonkinyuam@gmail.com');
